@@ -17,6 +17,14 @@
   --white: #ffffff;
 }
 
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* General Styles */
 
 html {
@@ -27,4 +35,87 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   line-height: 1;
+
+  color: var(--dark);
+}
+
+/* Utility classes and reusable components */
+
+.container {
+  width: 121.6rem;
+
+  margin: 0 auto;
+}
+
+.btn:link,
+.btn:visited {
+  padding: 1.4rem 3.2rem;
+  border-radius: 4px;
+}
+
+/****************/
+/* HERO SECTION */
+/****************/
+
+/* Hero layout */
+
+.section-hero {
+  padding: 5rem 0;
+
+  background-color: var(--gray-40);
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Hero content styles */
+
+/* hero-text-box */
+
+.hero-text-box {
+  width: 58.1rem;
+  height: 28.1rem;
+}
+
+.hero-heading {
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1.2;
+
+  margin-bottom: 3.2rem;
+}
+
+.hero-heading span {
+  color: var(--brand-color);
+}
+
+.hero-description {
+  width: 55rem;
+  height: 7.2rem;
+
+  font-size: 2.4rem;
+  line-height: 1.6;
+
+  margin-bottom: 4.8rem;
+}
+
+.hero-btn:link,
+.hero-btn:visited {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 1.7;
+
+  color: var(--white);
+  background-color: var(--brand-color);
+}
+
+/* hero-img-box */
+
+.hero-img {
+  height: auto;
 }
