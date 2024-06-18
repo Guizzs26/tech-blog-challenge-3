@@ -23,7 +23,7 @@
             dicas e tendências atuais.
           </p>
 
-          <a href="#" class="btn hero-btn">Buscar artigos</a>
+          <a href="#" class="hero-btn">Buscar artigos</a>
         </div>
 
         <img src="/image/illustra.png" alt="Illustration" class="hero-img" />
@@ -31,10 +31,11 @@
     </section>
 
     <!-- Articles Section -->
+
     <div class="section-articles">
       <article class="container">
         <h2 class="article-heading">Artigos recomendados</h2>
-        <div class="grid grid--3-cols grid--center-v">
+        <div class="grid grid--3-cols">
           <div class="article-card">
             <img
               src="/image/image-1.png"
@@ -132,10 +133,9 @@
               class="article-img"
             />
 
-            <div class="article-text-box">
+            <div class="article-text-box last-box">
               <h3 class="card-heading">
-                GitHub Copilot ganha integração com GPT-4 e interface
-                conversacional
+                GitHub Copilot ganha integração com GPT-4
               </h3>
               <p class="card-description">
                 O GitHub Copilot, ferramenta de desenvolvimento baseada em IA...
@@ -145,5 +145,28 @@
         </div>
       </article>
     </div>
+
+    <!-- Form section -->
+
+    <section class="section-form">
+      <div class="form-container">
+        <h2 class="form-heading">Entre em contato</h2>
+
+        <form class="contact-form">
+          <div class="form-input-group">
+            <input type="text" placeholder="Nome" class="form-text-input" />
+
+            <input type="text" placeholder="Email" class="form-text-input" />
+
+            <textarea
+              placeholder="Assunto da Mensagem"
+              class="form-textarea-input"
+            ></textarea>
+          </div>
+
+          <button class="form-btn">Entrar em contato</button>
+        </form>
+      </div>
+    </section>
   </body>
 </html>
